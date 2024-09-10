@@ -184,3 +184,32 @@ mixed.forEach(element => {
         console.log('not number');
     }
 });
+
+/*
+追加課題08/26
+1
+テンプレートリテラルと言い、バッククォートを使います。ドル中括弧を
+${...}使って、変数や式を文字列の中に入れることができる。改行もできる。
+
+2
+以下のように変数に入っている現在の値に対して追加で計算する式が例として挙げられる。 section2
+let number = 5;
+number = number + 3;
+console.log(number);
+
+3
+関数の実行方法は関数名と();で実行される。また実行の際は引数がなくてもよい。
+回答Q6を見るとsayHello();、sayWorld();は共に引数がないが、実行するとそれぞれ定義した文字列はコンソールに表示される。
+
+function sayHello() {
+  console.log('Hello');
+}
+
+sayHello();
+
+let sayWorld = function() {
+  console.log('World');
+};
+
+sayWorld();
+*/
